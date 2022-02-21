@@ -27,9 +27,11 @@
     "tslib": "^2.0.0",
     "typescript": "^3.9.3"
   },
+  "proxy": "http://127.0.0.1:8000/",
   "dependencies": {
     "rollup-plugin-postcss": "^4.0.2",
     "sirv-cli": "^1.0.0",
-    "svelte-spa-router": "^3.2.0"
+    "svelte-spa-router": "^3.2.0",
+    "uuid-v4": "^0.1.0"
   }
 }
